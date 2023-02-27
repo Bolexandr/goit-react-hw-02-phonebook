@@ -29,10 +29,8 @@ const ContactsList = ({ data, onDelHendler }) => {
   );
 };
 
-// ContactsList.propTypes = {
-//   data: PropTypes.shape({
-//     map: PropTypes.func,
-//   }),
-//   onDelHendler: PropTypes.func,
-// };
+ContactsList.propTypes = {
+  data: PropTypes.object,
+  onDelHendler: PropTypes.func,
+};
 export default ContactsList;
