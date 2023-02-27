@@ -30,7 +30,7 @@ const ContactsList = ({ data, onDelHendler }) => {
 };
 
 ContactsList.propTypes = {
-  data: PropTypes.object,
+  data: PropTypes.array,
   onDelHendler: PropTypes.func,
 };
 export default ContactsList;

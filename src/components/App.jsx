@@ -38,7 +38,9 @@ export class App extends Component {
 
   onDelHendler = identeficator => {
     this.setState(prevState => ({
-      contacts: [prevState.contacts.filter(({ id }) => id !== identeficator)],
+      contacts: [
+        ...prevState.contacts.filter(({ id }) => id !== identeficator),
+      ],
     }));
   };
 
