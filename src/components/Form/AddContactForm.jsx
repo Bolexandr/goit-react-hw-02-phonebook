@@ -13,11 +13,6 @@ const BasicForm = styled.form`
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
 `;
 
 const BasicLabel = styled.label`
@@ -136,7 +131,7 @@ class AddContactForm extends Component {
           title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
           placeholder="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
         />
-        <SubmitButton type="submit">Submit data</SubmitButton>
+        <SubmitButton type="submit">Add contact</SubmitButton>
       </BasicForm>
     );
   }
