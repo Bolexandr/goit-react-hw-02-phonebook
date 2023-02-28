@@ -1,5 +1,4 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { object } from 'prop-types';
 import styled from 'styled-components';
 import * as yup from 'yup';
 
