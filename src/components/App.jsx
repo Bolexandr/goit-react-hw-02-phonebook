@@ -67,5 +67,4 @@ export class App extends Component {
       </>
     );
   }
-  // <Section title={"Contacts"}>{ 'Phoneboock'}</Section>
 }
