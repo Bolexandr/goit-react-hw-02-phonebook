@@ -1,17 +1,7 @@
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Card from 'components/Card/';
+import { List } from './ContactList.styled';
 
-const List = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 0px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-`;
 const ContactsList = ({ data, onDelHendler }) => {
   return (
     <List>
